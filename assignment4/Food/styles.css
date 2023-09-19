@@ -1,0 +1,297 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700;800;900&display=swap');
+body {
+    font-family: Kanit, sans-serif;
+    background-color: #000129ef;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/pic/chicken-8.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 50%;
+    backdrop-filter: blur(20px);
+}
+
+.text-title{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    margin: 0em 10em 10em 10em;
+    padding: 3em;
+    background-color: #cab9b996;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+}
+
+
+.image-section{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    margin: 4em;
+    justify-content: center;
+
+}
+.image-section img {
+    width: 250px;
+    height: 300px;
+    border-radius: 2em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.199);
+    transition: all .5s ease-out;
+
+
+}
+.image-section :hover{
+    transform: scale(1.2);
+    transition: all .5s ease-out;
+}
+
+.allsection{
+    display: grid;
+    gap:2em;
+}
+.ingredients{
+    grid-row: 1;
+    padding: 0em 2em 2em 2em;
+    background-color: #4b434338;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1.5em;
+    color: #fff;
+    font-weight: 500;
+}
+.instructions {
+    grid-row: 2;
+    padding: 0em 2em 2em 2em;
+    background-color: #4b434338;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    
+
+
+}
+.ingredients  img {
+    border-radius: 2em;
+    transition: all .25s  ease-out;
+
+}
+.ingredients  img:hover{
+    transform: scale(1.05);
+    transition: all .25s ease-out;
+}
+.instructions-detail{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.instructions-detail-step{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+
+}
+.instructions-detail-img{
+    text-align: center;
+}
+.instructions img{
+    width: 200px;
+    height: 160px;
+    border-radius: 2em;
+    transition: all .25s ease-out;
+    
+}
+.instructions img:hover{
+    transform: scale(1.1);
+    transition: all .25s ease-out;
+}
+.title-1{
+    color: #fff;
+    text-align: start;
+    font-size: 1.8em;
+}
+.title-2{
+    color: #fff;
+    text-align: end;
+    font-size: 1.8em;
+}
+.allstep{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    padding: 2em;
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.source {
+    font-style: italic;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+@media screen and (min-width: 480px) {
+    body {
+        font-family: Kanit, sans-serif;
+        background-color: #000129ef;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        background-image: url(/pic/chicken-8.jpg);
+        background-repeat: no-repeat;
+        background-size: 150%;
+        background-position: 50%;
+        backdrop-filter: blur(20px);
+    }
+
+    .text-title{
+        font-size: 2em;
+        font-weight: 800;
+        text-align: center;
+        color: #fff;
+    }
+
+    .container {
+        margin: 0em 10em 10em 10em;
+        padding: 3em;
+        background-color: #cab9b996;
+        backdrop-filter: blur(10px);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        border-radius: 1.5em;
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+
+    }
+
+
+    .image-section{
+        display: flex;
+        flex-direction: row;
+        gap: 4em;
+        margin: 4em;
+        justify-content: center;
+
+    }
+    .image-section img {
+        width: 250px;
+        height: 300px;
+        border-radius: 2em;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.199);
+        transition: all .5s ease-out;
+
+
+    }
+    .image-section :hover{
+        transform: scale(1.2);
+        transition: all .5s ease-out;
+    }
+
+    .allsection{
+        display: grid;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        gap:2em;
+    }
+    .ingredients, .instructions {
+        padding: 0em 2em 2em 2em;
+        background-color: #4b434338;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 1.5em;
+        color: #fff;
+        font-weight: 500;
+        
+
+
+    }
+    .ingredients  img {
+        border-radius: 2em;
+        transition: all .25s  ease-out;
+
+    }
+    .ingredients  img:hover{
+        transform: scale(1.05);
+        transition: all .25s ease-out;
+    }
+    .instructions-detail{
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .instructions-detail-step{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        justify-content: center;
+
+    }
+    .instructions-detail-img{
+        text-align: center;
+    }
+    .instructions img{
+        width: 200px;
+        height: 160px;
+        border-radius: 2em;
+        transition: all .25s ease-out;
+        
+    }
+    .instructions img:hover{
+        transform: scale(1.1);
+        transition: all .25s ease-out;
+    }
+    .title-1{
+        color: #fff;
+        text-align: start;
+        font-size: 1.8em;
+    }
+    .title-2{
+        color: #fff;
+        text-align: end;
+        font-size: 1.8em;
+    }
+    .allstep{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+        padding: 2em;
+    }
+    .step{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .source {
+        font-style: italic;
+        color: #fff;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 30px;
+        color: #ffffff;
+    }
+}
