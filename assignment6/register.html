@@ -3,44 +3,44 @@
 <head>
 	<meta charset='utf-8'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-	<title>Page Title</title>
+	<title>Registration Page</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1'>
-	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'> <!-- Add your CSS file here -->
 	<script src='register.js'></script>
 </head>
 <body>
-	<form name="myForm" id="myForm" action="login.html">
+	<form name="myForm" id="myForm" action="login.html" onsubmit="return validateForm()">
 		<fieldset>
 			<legend>Register</legend>
-			<span>* require</span> <br>
-			<span id="errormsg"></span> <br>
+			<br>
+			<span id="errormsg" style="color: red;"></span> <br>
 			First name*: 
 			<input type="text" name="firstname" required>
 			Last name*: 
-			<input type="text" name="lastname" >
+			<input type="text" name="lastname" required>
 			<br>
 			Gender*: 
-			<input type="radio" name="gender" value="male" >Male
-			<input type="radio" name="gender" value="female" >Female
-			<input type="radio" name="gender" value="female" >Other
+			<input type="radio" name="gender" value="male" required>Male
+			<input type="radio" name="gender" value="female" required>Female
+			<input type="radio" name="gender" value="other" required>Other
 			<br>
 			Birthday*: 
-			<input type="date" name="bday" value="" >
+			<input type="date" name="bday" required>
 			<br>
 			Email address*: 
-			<input type="email" name="email" >
+			<input type="email" name="email" required>
 			<br>
 			Username*: 
-			<input type="text" name="username" >
+            <input type="text" name="username" id="username" required>
 			<br>
 			Password*: 
-			<input type="password" name="password" required>
+			<input type="password" name="password" id="password" required>
 			<br>
 			Retype Password*: 
-			<input type="password" name="password" required>
+			<input type="password" name="retypepassword" id="retypepassword" required>
 			<br>
 			<input type="submit" value="Register">
-			<input type="reset" value="Reset">
+			<input type="reset" value="Reset" onclick="clear()">
 		</fieldset>
 	</form>
 </body>

@@ -1,10 +1,16 @@
-window.onload = loginLoad;
-function loginLoad(){
-	
-}
+function checkLogin() {
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const registeredUsername = urlSearchParams.get("username");
+    const registeredPassword = urlSearchParams.get("password");
 
-function checkLogin(){
-	//ถ้าตรวจสอบแล้วพบว่ามีการ login ไม่ถูกต้อง ให้ return false ด้วย
-}
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
 
-			
+    if (username === registeredUsername && password === registeredPassword) {
+        alert("Login successful!");
+        return true;
+    } else {
+        alert("Invalid username or password. Please try again.");
+        return false;
+    }
+}

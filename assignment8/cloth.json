@@ -1,0 +1,47 @@
+{
+    "top1": {
+        "brandname": "A.K.O.O Clothing",
+        "price": "200",
+        "pic": "./pic/top1.jpg"
+    },
+    "top2": {
+        "brandname": "B.K.T Clothing",
+        "price": "500",
+        "pic": "./pic/top2.jpg"
+    },
+    "top3": {
+        "brandname": "C.D.E Clothing",
+        "price": "350",
+        "pic": "./pic/top3.jpg"
+    },
+    "top4": {
+        "brandname": "X.Y.Z Apparel",
+        "price": "600",
+        "pic": "./pic/top4.jpg"
+    },
+    "top5": {
+        "brandname": "Q.R.S Outfits",
+        "price": "280",
+        "pic": "./pic/top5.jpg"
+    },
+    "top6": {
+        "brandname": "M.N.O Fashions",
+        "price": "750",
+        "pic": "./pic/top6.jpg"
+    },
+    "top7": {
+        "brandname": "G.H.I Styles",
+        "price": "420",
+        "pic": "./pic/top7.jpg"
+    },
+    "top8": {
+        "brandname": "L.K.J Garments",
+        "price": "300",
+        "pic": "./pic/top8.jpg"
+    },
+    "top9": {
+        "brandname": "P.Q.R Couture",
+        "price": "890",
+        "pic": "./pic/top9.jpg"
+    }
+}
