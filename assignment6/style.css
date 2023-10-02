@@ -1,0 +1,83 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 640px;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+fieldset {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    padding: 3em;
+}
+
+legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d2d6dc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+input[type="radio"] {
+    margin-right: 0.25rem;
+}
+
+button[type="submit"],
+input[type="submit"],
+button[type="reset"],
+input[type="reset"] {
+    background-color: #4299e1;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover,
+button[type="reset"]:hover,
+input[type="reset"]:hover {
+    background-color: #3182ce;
+}
+
+span#errormsg {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    display: block;
+    color: red;
+}
